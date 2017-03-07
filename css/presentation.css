@@ -1,0 +1,117 @@
+.reveal .slides>section, .reveal .slides>section>section {
+	padding: 0px 0px 0px 0px;
+}
+
+body {
+	font-family:"Ubuntu","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
+}
+
+a {
+	color: #70C2F8 !important;
+}
+
+.logo {
+	background-color: #eeeeee;
+	border-width: thick;
+	border-color: #eeeeee;
+}
+
+.fullscreen .state-background {
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreen .reveal .slides {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  left: 0px;
+  right: 0px;
+  top:0px;
+  bottom: 0px;
+}
+
+.fullscreen .reveal .slides > section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  text-align: left;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin:0px;
+  padding:20px;
+  padding-top: 40px;
+}
+
+.fullscreen .reveal .slides > section > section {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  min-height: 100%;
+  margin: 0px;
+  text-align: left;
+  padding:20px;
+  padding-top: 40px;
+}
+
+.esriAttribution {
+  display: none;
+}
+
+
+.largeLetter { 
+  font-size:135%; 
+}
+
+.full{
+  height:100% !important;
+  width:100% !important;
+}
+
+a .sample{
+  font-size: small;
+}
+
+section {
+  top: 0px; 
+  display: block;
+}
+
+.yesPanel {
+  width: 50%; 
+  display: inline-block; 
+  margin-right: 5%; 
+  vertical-align: top;
+  background-color: #FF6600;
+}
+
+.nopePanel {
+  width: 50%; 
+  display: inline-block; 
+  margin-right: 5%; 
+  vertical-align: top;
+  background-color: #009900;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #eee8d5;
+  font-family:"Ubuntu","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: none; }
+

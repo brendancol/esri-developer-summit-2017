@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Continuum's Open Source Offerings</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/presentation.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <style>
+    body {
+      background:url("images/background.jpg");
+      background-position:center;
+      background-size: 100%;
+    }
+
+    section .subitem {
+      padding-left:1em;
+    }
+
+  </style>
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides" >
+
+				<section width="100%" height="1000" class="fullscreen">
+					<br>
+					<h3><span class="largeLetter">Exploring Continuum's Open Source Projects</h3>
+					<br>
+					<br>
+					<h4>
+					<small>
+            Esri Developer Summit 2017
+					</small>
+					</h4>
+				</section>
+
+				<section width="100%" height="1000" class="fullscreen">
+          <img src="images/bcollins-github.png" width="100%" height="100%"/>
+				</section>
+
+				<section style="top: 0px; display: block;">
+          <div style="background-color: rgba(20, 98, 20, 0.5); width: 100%; height: 400%; position: absolute; top: -100%; left: -0%; z-index: -1;">
+				</div>
+				<div>
+				    <div style="width: 40%; display: inline-block; vertical-align: center; float:left;margin-left: 5%;">
+				    	<h2 class="fragment fade-in" style="text-align: left;">Open Source</h2>
+				    	<p class="fragment fade-in hightlight-red"  style="text-align: left;">
+				        <b>Conda</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: left;">
+				        <b>Dask</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: left;">
+				        <b>Bokeh</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: left;">
+                  <b>Datashader</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: left;">
+                  <b>Numba</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: left;">
+                  <b>Holoviews</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: left;">
+                  <b>Blaze</b>
+				        </p>
+				    </div>
+				    <div style="width: 50%; display: inline-block; margin-right: 5%; vertical-align: center;float:left">
+				    	<h2 class="fragment fade-in" style="text-align: right;">Anaconda Entreprise</h2>
+				    	<p class="fragment fade-in" style="text-align: right;">
+				        <b>Anaconda Distribution</b>
+				        </p>
+				        <p class="fragment fade-in" style="text-align: right;">
+				        <b>Anaconda Repository</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: right;">
+				        <p class="fragment fade-in"  style="text-align: right;">
+				        <b>Anaconda Accelerate</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: right;">
+				        <b>Anaconda Scale</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: right;">
+				        <b>Anaconda Entreprise Notebooks</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: right;">
+				        <b>Anaconda Mosaic</b>
+				        </p>
+				        <p class="fragment fade-in"  style="text-align: right;">
+				        <b>Anaconda Fusion</b>
+				        </p>
+				    </div>
+				</div>
+				
+				</section>
+
+				<section>
+					<h2>DASK</h2>
+					<h5>a flexible parallel computing library</h3>
+				</section>
+				<section style="top: 0px; display: block;">
+          <div style="background-color: rgba(0, 0, 0, 0.5); width: 100%; height: 400%; position: absolute; top: -100%; left: -0%; z-index: -1;">
+				</div>
+				<div>
+				    <div style="width: 80%; display: inline-block; vertical-align: center; float:left;margin-left: 5%;">
+				    	<h2 style="text-align: left;">Dask Basics: Task Scheduling</h2>
+              <p class="fragment fade-in"  style="text-align: left;">Airflow, Luigi, Celery</p>
+              <p class="fragment fade-in"  style="text-align: left;">Optimized for interactive computational workloads</p>
+				    </div>
+				</div>
+				
+				</section>
+				<section style="top: 0px; display: block;">
+          <div style="background-color: rgba(0, 0, 0, 0.5); width: 100%; height: 400%; position: absolute; top: -100%; left: -0%; z-index: -1;">
+				</div>
+				<div>
+				    <div style="width: 80%; display: inline-block; vertical-align: center; float:left;margin-left: 5%;">
+				    	<h2 style="text-align: left;">Dask Basics: Big Data Collections</h2>
+              <p class="fragment fade-in"  style="text-align: left;">Parallel arrays</p>
+              <p class="fragment fade-in"  style="text-align: left;">Parallel dataframes</p>
+              <p class="fragment fade-in"  style="text-align: left;">Parallel lists</p>
+              <p class="fragment fade-in"  style="text-align: left;">Common interfaces:</p>
+              <p class="fragment fade-in subitem"  style="text-align: left;">NumPy</p>
+              <p class="fragment fade-in subitem"  style="text-align: left;">Pandas</p>
+              <p class="fragment fade-in subitem"  style="text-align: left;">Python Iterators</p>
+				        </p>
+				    </div>
+				</div>
+				
+				</section>
+
+        <section data-markdown="bokeh.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+        <section data-markdown="bokehplotting.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+        <section data-markdown="bokehmaps.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+        <section data-markdown="bokehserver.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+        <section data-markdown="datashader.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+        <section data-markdown="datashadercensus.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+        <section data-markdown="daskarray.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+        <section data-markdown="daskgraphs.md" data-separator="^\n\n\n" data-vertical="^\n\n"></section>
+
+
+				<section>
+					<h2>DASK</h2>
+					<h5>a flexible parallel computing library</h3>
+				</section>
+
+				<section>
+					<h2>Bokeh</h2>
+					<h5>interactive visualization written in python for the modern web browser</h3>
+				</section>
+
+				<section>
+					<h2>Datashader</h2>
+					<h5>a graphics pipeline system for creating meaningful representations of large amounts of data</h3>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				width: '100%',
+    			height: '100%',
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				var frames = $(event.currentSlide).find("iframe");
+				if(frames && frames[0]) {
+					if(frames[0].src.indexOf("_dojo_") > -1) {
+						frames[0].contentDocument.location.reload(true);
+						console.log('reloaded frame');
+					} 
+				}
+			} );
+
+		</script>
+
+	</body>
+</html>
